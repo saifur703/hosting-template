@@ -308,6 +308,7 @@ p {
   color: #001b42;
   padding: 10px 0;
   border-bottom: 1px solid #dfe2e7;
+  text-transform: capitalize;
 }
 
 .main-menu li div.mega-menu .nav-column li a:hover {
