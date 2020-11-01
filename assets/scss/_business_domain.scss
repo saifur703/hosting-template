@@ -1,0 +1,24 @@
+.common-text {
+     h2 {
+         color: $dark-blue;
+         font-size: 2.3rem;
+         margin-bottom: 35px;
+
+         span {
+             display: block;
+         }
+     }
+     p {
+         color: $dark-blue;
+         font-size: 1rem;
+
+         &.price {
+             font-size: 1.5rem;
+             margin-bottom: 30px;
+
+             strong {
+                 display: block;
+             }
+         }
+     }
+}

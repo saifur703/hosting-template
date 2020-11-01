@@ -1,0 +1,17 @@
+.service-links-area {
+    @include sectionPadding();
+
+
+    .single-service-link {
+        text-align: center;
+
+        img {
+            margin-bottom: 30px;
+        }
+
+        p {
+            text-transform: capitalize;
+            color: $blue;
+        }
+    }
+}

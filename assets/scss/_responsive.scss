@@ -1,0 +1,196 @@
+/*	Large Layout: 1280px	*/
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {}
+
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header .main-menu ul li:last-child a {
+        top: 3rem;
+    }
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+
+    .header {
+        .main-menu {
+
+            ul,
+            li {
+                display: inline-block;
+            }
+
+            ul {
+                li:last-child a {
+                    position: relative;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    .header-bottom-area {
+        .header-bottom {
+            display: inline-block;
+            margin: 0;
+        }
+    }
+
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+
+    .common-text {
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    .banner-area {
+        .banner-text {
+            p {
+                text-align: center;
+            }
+
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+
+    .single-service-link {
+        margin: 15px 0;
+    }
+
+    .common-text {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .single-host-matter {
+        text-align: center;
+    }
+
+    .single-why-hosting {
+        margin-left: 25%;
+    }
+
+    .footer {
+        .single-footer-item {
+            margin: 15px 0;
+        }
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        width: 100%;
+        color: $black;
+        z-index: 999;
+
+        .slicknav_menutxt {
+            display: none !important;
+        }
+
+        .slicknav_icon {
+            width: 2em;
+        }
+
+        .slicknav_icon-bar {
+            width: 2em;
+        }
+
+        .slicknav_nav {
+            background: #fff;
+            color: #000;
+
+            a {
+                color: #000;
+                font-size: 1rem;
+
+                &:hover {
+                    background-color: $light-blue;
+                    color: #fff;
+                }
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    // Mega Menu
+    .main-menu {
+        li {
+            div.mega-menu {
+
+                .nav-column {
+                    float: none;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+    
+
+}
+@media only screen and (max-width: 425px) {
+    .header-bottom-area .search-form input[type='search'] {
+        width: auto;
+    }
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* css */
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+    /* css */
+
+}

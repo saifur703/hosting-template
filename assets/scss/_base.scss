@@ -1,0 +1,102 @@
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $primaryFontFamily;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: $white;
+    overflow-x: hidden;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    vertical-align: middle;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    color: $black;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: 0 solid;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.fix:before,
+.fix:after {
+    content: "";
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+
+.section-padding {
+    @include sectionPadding(70px, 0px);
+}
+.light-blue {
+    color: $light-blue;
+}
+.gray-bg {
+    background-color: $gray;
+}
+.section-title {
+    margin-bottom: 50px;
+    color: #718197;
+    font-size: 1.12rem;
+
+    h2 {
+        color: $dark-blue;
+        font-size: 3rem;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+/*------End Base CSS------*/
